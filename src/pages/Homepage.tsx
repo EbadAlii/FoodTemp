@@ -1,9 +1,10 @@
-import DealsBar from "../components/Deals/DealsBar";
+import BannerSliderBlock from "../components/banner-slide-block";
+import DealsBar from "../components/Lib/DealsBar";
 import FeaturedDealsBar from "../components/Featured Deals/FeaturedDealsBar";
 import FeaturedDealsNav from "../components/Featured Deals/FeaturedDealsNav";
-import Footer from "../components/Footer";
+import Footer from "../components/Lib/FooterOne";
 import CarouselComp from "../components/Header/CarouselComp";
-import Header from "../components/Header/Header";
+import Header from "../components/Lib/Header";
 import HeaderBanner from "../components/Header/HeaderBanner";
 import SearchDiv from "../components/Header/SearchDiv";
 import PremiumDeals from "../components/Premium Deals/PremiumDeals";
@@ -15,7 +16,8 @@ const Homepage = () => {
       <Header />
       <SearchDiv />
       {/* <HeaderBanner /> */}
-      <CarouselComp />
+      {/* <CarouselComp /> */}
+      <BannerSliderBlock />
       <DealsBar />
       <FeaturedDealsNav />
       <FeaturedDealsBar />

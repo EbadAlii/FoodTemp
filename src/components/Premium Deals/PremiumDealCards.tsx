@@ -4,8 +4,8 @@ import nav from "../../assets/Group 8651.png";
 
 function PremiumDealCards(props: any) {
   return (
-    <div className="h-[315px] w-auto rounded-[20px] m-auto bg-[#FFFFFF] flex flex-col items-center px-[4px] md:px-[12px]">
-      <div className="min-h-[134px] min-w-[124px] mx-[21px]">
+    <div className="h-[315px] w-auto rounded-[20px] m-auto bg-[#FFFFFF] flex flex-col items-center px-[4px] md:px-[12px] min-w-[120px] max-w-[195px] md:max-w-[210px]">
+      <div className="min-h-[134px] min-w-[90px] mx-[21px]">
         <img src={foodPic} alt="" />
       </div>
       <div className="flex items-center justify-start pl-[14px] w-full h-[38px] rounded-[20px] bg-[#DAF3DD] text-[12px] font-[700] text-[#30334F] ">
