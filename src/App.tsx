@@ -4,6 +4,7 @@ import CardThree from "./components/Lib/CardThree";
 import CardTwo from "./components/Lib/CardTwo";
 import DealsBar from "./components/Lib/DealsBar";
 import FooterOne from "./components/Lib/FooterOne";
+import FooterThree from "./components/Lib/FooterThree";
 import FooterTwo from "./components/Lib/FooterTwo";
 import HeaderOne from "./components/Lib/HeaderOne";
 import HeaderTwo from "./components/Lib/HeaderTwo";
@@ -50,6 +51,10 @@ function App() {
         <br />
         <br />
         <FooterTwo />
+        <br />
+        <br />
+        <br />
+        <FooterThree />
       </div>
     </div>
   );
